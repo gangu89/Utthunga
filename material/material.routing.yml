@@ -1,0 +1,7 @@
+get_weather_data:
+  path: '/weather_data'
+  defaults:
+    _title: 'Get Weather forecast'
+    _controller: '\Drupal\material\WeatherController::getWeatherData'
+  requirements:    
+    _access: 'TRUE'

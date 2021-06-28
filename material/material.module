@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * Implemenets hook_theme().
+ */
+function material_theme() {
+  return [
+      'weather_api_content' => [
+      'variables' => [
+        'items' => NULL,
+        // 'deg' => NULL,
+        // 'main' => NULL,
+        // 'description' => [],
+      ],
+      'template' => 'weather-api-content',
+    ],
+  ];
+}
